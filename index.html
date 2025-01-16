@@ -4,10 +4,76 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Web Developer Portfolio</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet"
+        />
+
+        <link rel="stylesheet" href="styles/portfolio.css" />
     </head>
-    <body>
-        <header></header>
-        <main></main>
+    <body class="open-sans-normal">
+        <header class="secondary-bg">
+            <nav>
+                <h3 class="nav-title">
+                    Jhu<span class="text-primary">m</span>a
+                </h3>
+                <ul>
+                    <li><a class="Dark-2" href="">Portfolio</a></li>
+                    <li><a class="Dark-2" href="">Blog</a></li>
+                    <li>
+                        <a href=""
+                            ><button class="btn-primary">Hire Me</button></a
+                        >
+                    </li>
+                </ul>
+            </nav>
+            <div class="banner">
+                <div class="banner-content">
+                    <h4 class="banner-greetings Dark-2">Hi, I am</h4>
+                    <h1 class="banner-title">Jhuma Akter</h1>
+                    <p class="banner-descriptin">
+                        My greatest passion is to use my technical know-how to
+                        benefit my organizations.
+                    </p>
+                    <button class="btn-primary">Download CV</button>
+                    <button class="btn-primary">Contact</button>
+                </div>
+                <img class="banner-profile-pic" src="styles/Saj.jpg" alt="" />
+            </div>
+        </header>
+        <main>
+            <section class="about secondary-bg">
+                <h3 class="section-title">About Me</h3>
+                <p class="section-description">
+                    I am a highly competent IT professional with a proven track
+                    record in designing websites, Networking, and managing
+                    Databases. I have strong academic background, professional
+                    trainings, technical as well as interpersonal skills
+                    enabling me to interact with a wide range of clients.
+                </p>
+                <div class="about-items">
+                    <!-- .about-item*4>p.item-title+p.item-description  -->
+                    <div class="about-item">
+                        <p class="item-title">Name</p>
+                        <p class="item-description">Jhuma Akter</p>
+                    </div>
+                    <div class="about-item">
+                        <p class="item-title">Email</p>
+                        <p class="item-description">saj@gmail.com</p>
+                    </div>
+                    <div class="about-item">
+                        <p class="item-title">Date of Birth</p>
+                        <p class="item-description">Apr 10,1998</p>
+                    </div>
+                    <div class="about-item">
+                        <p class="item-title">From</p>
+                        <p class="item-description">Dhaka</p>
+                    </div>
+                </div>
+            </section>
+        </main>
         <footer></footer>
     </body>
 </html>
