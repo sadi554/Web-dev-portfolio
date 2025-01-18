@@ -172,11 +172,11 @@ footer {
 footer input[type="text"],
 footer input[type="email"],
 footer textarea {
-    height: 64px;
+    height: 50px;
     border-radius: 5px;
     background-color: white;
     display: block;
-    width: 100px;
+    width: 200px;
     padding: 10px 20px;
     margin-bottom: 24px;
     border: none;
